@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="map.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body class="bg-light">
+    
+    <nav class="navbar navbar-light fixed-top shadow-sm" style="background:#20c997;">
+        <div class="container-lg">
+          <a class="navbar-brand fw-bold fs-4" style="color:#fff;" href="#">Divine</a>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" style="background:#007d58;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+             Others
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Group Web</a></li>
+              <li><a class="dropdown-item" href="https://docs.google.com/presentation/d/1b_XF8i_mD1LKlJllAKUBB-5LM9viQsgCJOv39EPDzqk/edit#slide=id.p">NSDB Slides</a></li>
+              <li><a class="dropdown-item" href="#">Concept Video</a></li>
+              <li><a class="dropdown-item" href="tribute.html">Tribute Page</a></li>
+              <li><a class="dropdown-item" href="myrestaurant.html">Restaurant Page</a></li>
+              <li><a class="dropdown-item" href="gallery.html">Technology Gallery</a></li>
+              <li><a class="dropdown-item" href="vaccination.html">Vaccination Form</a></li>
+            </ul>
+          </div>
+      </nav>
+      
+
+      <section class="home py-5" style="background:#b9f0df;" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="images/me-girl.png" style="width: 600px;" alt="profile img">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-end">
+                    <div class="home-text">
+                        <p class="mb-1" style="color: rgb(52, 71, 60);">Hello I'm</p>
+                        <h1 class="text-success text-uppercase fs-1 fw-bold">Divine Y. Desamparado</h1>
+                        <h2 class="fs-4 "><b>Student</b></h2>
+                        <p class="mt-4 text-muted">I'm a BSIT 2nd year college at the University of Immaculate Conception</p>
+                    </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about py-5" style="background:#a9d4c7;" id="about">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-7" style="color: #fff; font-size: 50px;">About Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-lg">
+                <div class="row min-vh-40 align-items-center align-content-center">
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="about-img text-center">
+                            <img src="images/about.png" style="width: 600px;" alt="about img">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                        <div class="about-text">
+                            <h3 class="text-success "><span class=" text-uppercase fw-bold" style="font-size: 30px; color: #fff;"> Name: </span> Divine Y. Desamparado </h3><br>
+                            <h3 class="text-success "><span class=" text-uppercase fw-bold" style="font-size: 30px; color: #fff;"> Age: </span> 20 years old </h3><br>
+                            <h3 class="text-success "><span class=" text-uppercase fw-bold" style="font-size: 30px; color: #fff;"> Sports: </span> Softball, Volleyball, Badminton </h3><br>
+                            <h3 class="text-success "><span class=" text-uppercase fw-bold" style="font-size: 30px; color: #fff;"> Place of Birth: </span> General Santos City </h3><br>
+                            <h3 class="text-success "><span class=" text-uppercase fw-bold" style="font-size: 30px; color: #fff;"> Date of Birth: </span> October 06, 2001 </h3><br>
+                            <h3 class="text-success "><span class=" text-uppercase fw-bold" style="font-size: 30px; color: #fff;"> College: </span> College of Computer Studies </h3>
+                        </div>
+                  </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="achievements py-5" style="background:#b9f0df;" id="achievements">
+        <div class="container-lg py-4">
+          <div class="row justify-content-center">
+              <div class="col-lg-8">
+                  <div class="section-title text-center">
+                      <h2 class="fw-bold mb-5 text-success" style="font-size: 50px;">Achievements</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="row text-center">
+              <div class="col-md-6 col-lg-4  mb-4">
+                  <div class="service-item shadow-sm p-4 rounded bg-white">
+                      <div class="icon my-3 text-success fs-2">
+                          <i class="fas fa-child"></i>
+                      </div>
+                      <h3 class="fs-5 py-2">School Achiever</h3>
+                      <p class="text-muted">I am one of the Achiever at our section and it really pays my hard work in school.</p>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="service-item shadow-sm p-4 rounded bg-white">
+                      <div class="icon my-3 text-success fs-2">
+                          <i class="fas fa-baseball-ball"></i>
+                      </div>
+                      <h3 class="fs-5 py-2">Depression Survivor</h3>
+                      <p class="text-muted">I can say that I am improving and Happy with the people around me.</p>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="service-item shadow-sm p-4 rounded bg-white">
+                      <div class="icon my-3 text-success fs-2">
+                          <i class="fas fa-drum"></i>
+                      </div>
+                      <h3 class="fs-5 py-2">Fully Vaccinated</h3>
+                      <p class="text-muted">I am fully vaccinated with a Sinovac at the Labella Hospital, General Santos City.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="contact py-5" style="background:#a9d4c7;" id="contact">
+        <div class="container-lg py-4">
+          <div class="row justify-content-center">
+              <div class="col-lg-8">
+                  <div class="section-title text-center">
+                      <h2 class="fw-bold mb-5" style="color: #fff; font-size: 50px;">Contact Me</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-5">
+                  <div class="contact-item d-flex mb-3">
+                      <div class="icon fs-4 text-success">
+                          <i class="fas fa-envelope"></i>
+                      </div>
+                      <div class="text ms-3">
+                          <h3 class="fs-5">Email</h3>
+                          <p class="text-success">ddesamparado_200000000272@uic.edu.ph</p>
+                      </div>
+                  </div>
+                  <div class="contact-item d-flex mb-3">
+                      <div class="icon fs-4 text-success">
+                          <i class="fas fa-phone"></i>
+                      </div>
+                      <div class="text ms-3">
+                          <h3 class="fs-5">Phone</h3>
+                          <p class="text-success">0907*******</p>
+                      </div>
+                  </div>
+                  <div class="contact-item d-flex mb-3">
+                      <div class="icon fs-4 text-success">
+                          <i class="fas fa-map-marker-alt"></i>
+                      </div>
+                      <div class="text ms-3">
+                          <h3 class="fs-5">Visit Place</h3>
+                          <p class="text-success">Polomolok, South Cotabato</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-7">
+                  <div class="contact-form">
+                      <form>
+                          <div class="row">
+                              <div class="col-lg-6 mb-4">
+                                  <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                              </div>
+                              <div class="col-lg-6 mb-4">
+                                  <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-lg-12 mb-4">
+                                  <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-lg-12 mb-4">
+                                  <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-lg-12">
+                                  <button type="submit" class="btn btn-success px-3">Send Message</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </section>
+    <section class="p-5" style="background:#a9d4c7;">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md">
+              <h2 class="text-center mb-4 text-success">Locating <br>Purposes</h2>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  <span class="fw-bold text-success">Main Location:</span> Polomolok, South Cotabato
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold text-success">Student Email:</span> ddesamparado_200000000272@uic.edu.ph
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+      <script> mapboxgl.accessToken = 'pk.eyJ1IjoiZGl2aW5lZGVzYW1wYXJhZG8iLCJhIjoiY2t1Mm02eXk1MHJnYzJ2bXA0eGYwM3FxOCJ9.beEOtE5h6BK2wB0TGZXgvg';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11', 
+        center: [-71.060982, 42.35725], 
+        zoom: 18,
+        });</script>
+
+    <footer class="footer border-top py-4" style="background:#007d58;">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-light" >&copy; 2021 Divina</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
